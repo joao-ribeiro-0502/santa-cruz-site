@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+:root {
+  --cor-fundo: rgb(34, 41, 37);
+  --cor-hover: rgb(118, 180, 145);
+  --cor-primaria: rgb(232, 253, 241);
+}
+
+/* Estilos gerais */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+.sobre-escola {
+	background-color: #f0f0f0; /* Adiciona um fundo cinza */
+}
+
+.sobre-escola h2 {
+	text-align: center;
+	color: #008025;
+}
+
+.sobre-escola a {
+	color: #000;
+	text-decoration: none;
+}
+
+
+
+.iframe {
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+	margin-top: 20px;
+}
+
+/* Estilo geral do formulário */
+.contato{
+	background-image: url(/Images/Carrossel/image-5.jpg);
+}
+
+.formulario-contato {
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo dos rótulos (labels) */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #008025; /* Cor do texto dos rótulos */
+}
+
+/* Estilo dos campos de entrada (inputs) e área de texto (textarea) */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Estilo do botão de envio */
+button[type="submit"] {
+  background-color: #008025; /* Cor do botão */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Efeito de hover no botão de envio */
+button[type="submit"]:hover {
+  background-color: #005020; /* Cor do botão no hover */
+}
+
+/* Estilo para mensagens de sucesso ou erro (opcional) */
+.msg-success,
+.msg-error {
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.msg-success {
+  background-color: #4CAF50; /* Cor de sucesso */
+  color: white;
+}
+
+.msg-error {
+  background-color: #f44336; /* Cor de erro */
+  color: white;
+}
+
+.patrocinadores {
+  background-color: #f0f0f0; /* Cor de fundo do seção */
+  padding: 20px;
+  text-align: center;
+  overflow: hidden; /* Oculta o conteúdo fora do carrossel */
+}
+
+.patrocinadores h2 {
+  color: #008025; /* Cor do título */
+  font-size: 24px; /* Tamanho da fonte do título */
+  margin-bottom: 20px; /* Espaçamento inferior do título */
+}
+
+.carrossel {
+  white-space: nowrap; /* Impede que as imagens quebrem para a próxima linha */
+  animation: scroll 10s linear infinite; /* Animação para rolagem automática */
+  width: 100%; /* Ajusta a largura do carrossel */
+  margin: 0 auto; /* Centraliza o carrossel */
+  max-width: 800px; /* Largura máxima do carrossel */
+}
+
+.patrocinador {
+  display: inline-block; /* Permite que as imagens fiquem na mesma linha */
+  margin: 0 10px; /* Espaçamento entre os patrocinadores */
+  border-radius: 10%; /*Torna as imagens redondas */
+  overflow: hidden; /* Recorta as imagens para torná-las redondas */
+  background-color: #fff; /* Cor de fundo para manter a proporção da imagem */
+  width: 150px; /* Largura das imagens */
+  height: 150px; /* Altura das imagens */
+}
+
+.patrocinador img {
+  width: 100%; /* Largura 100% para ajustar a imagem dentro do contêiner redondo */
+  height: 100%; /* Altura 100% para ajustar a imagem dentro do contêiner redondo */
+}
+
+/* Animação de rolagem do carrossel */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% - 20px)); /* Considerando a margem entre os patrocinadores */
+  }
+}
+
+.enredo {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.enredo-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.enredo-image img {
+  max-width: 350px;
+  height: auto;
+  margin-right: 20px; /* Ajustado o espaçamento para a direita */
+}
+
+.enredo-details {
+  width: 60%;
+}
+
+h2 {
+	color: #008025;
+  font-size: 24px;
+}
+
+h3.sinopse {
+	color: #008025;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+p.sinopse-text {
+  font-size: 16px;
+  margin-top: 10px;
+  white-space: pre-wrap;
+}
+
+.audio-player {
+  margin-top: 20px;
+}
+
+p a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #008025;
+}
+

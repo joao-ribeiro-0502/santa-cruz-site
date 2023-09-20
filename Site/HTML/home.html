@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Favicon/favicon_io/android-chrome-512x512.png" type="image/x-icon">
+    <link rel="stylesheet" href="/Site/CSS/home.css">
+    <link rel="stylesheet" href="/Site/CSS/carrossel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Site/CSS/footer.css">
+    <link rel="stylesheet" href="/Site/CSS/settings.css">
+    <title>G.R.E.S Acadêmicos de Santa Cruz</title>
+</head>
+<body>
+  <section class="redes-sociais">
+    <div class="container">
+        <ul class="social-icons">
+            <li><a href="https://www.instagram.com/academicosdesantacruzrj/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+        </ul>
+    </div>
+</section>
+<header>
+    <div class="container">
+        <div class="logo">
+            <img src="/Images/Logo/santa-cruz-logo-removebg-preview.png" alt="Logo da G.R.E.S. Acadêmicos de Santa Cruz">
+        </div>
+        <nav class="dp-menu">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li>
+                    <a href="#">A ESCOLA</a>
+                    <ul>
+                        <li><a href="#">NOTÍCIAS</a></li>
+                        <li><a href="#">CONTATO</a></li>
+                        <li><a href="#" style="white-space: nowrap;">DESFILE CONOSCO</a></li>
+                        <li><a href="#">NOSSA HISTÓRIA</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">CARNAVAIS</a>
+                    <ul>
+                        <li><a href="#" style="white-space: nowrap;">CARNAVAL 2024</a></li>
+                        <li><a href="#" style="white-space: nowrap;">CARNAVAIS ANTERIORES</a></li>
+                    </ul>
+                </li>
+                <li><a href="/Site/HTML/socio.html">SEJA NOSSO SÓCIO</a></li>
+                <li><a href="/Site/HTML/nossa-loja.html">NOSSA LOJA</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<navigation>
+  <div class="slider">
+    <div class="slides">
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
+
+      <div class="slide first">
+        <img src="/Images/Carrossel/image-1.jpg" alt="IMAGE 1">
+      </div>
+      <div class="slide">
+        <img src="/Images/Carrossel/image-2.jpg" alt="IMAGE 2">
+      </div>
+      <div class="slide">
+        <img src="/Images/Carrossel/image-3.jpg" alt="IMAGE 3">
+      </div>
+      <div class="slide">
+        <img src="/Images/Carrossel/image-4.jpg" alt="IMAGE 4">
+      </div>
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+      </div>
+    </div>
+    <div class="manual-navigation">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+      <label for="radio4" class="manual-btn"></label>
+    </div>
+  </div>
+</navigation>
+<section class="sobre-escola">
+    <h2>Sobre a Escola</h2> <br>
+    <p>
+        Grêmio Recreativo Escola de Samba Acadêmicos de Santa Cruz (ou simplesmente Santa Cruz) é uma escola de samba brasileira da cidade do Rio de Janeiro, com sede no bairro de Santa Cruz, na zona oeste da cidade.Dentre as escolas de samba do carnaval carioca que já desfilaram na Marquês de Sapucaí, é a que se situa mais distante do sambódromo, localizada na Rua do Império em Santa Cruz. Atualmente é filiada a LIGA RJ, entidade criada juntamente com outras oito escolas em 2019, e participa da Série Ouro, grupo de acesso à elite do carnaval carioca.
+    </p> <br>
+    <p>
+        Desde a sua estreia no carnaval carioca sempre foi tida como a escola de samba representante da zona rural do Rio, fato este que, por vezes implicava em preconceito por parte da mídia e de sambistas de outras escolas. Já no seu quarto ano de desfiles no Rio de Janeiro figurava entre as grandes do carnaval carioca. Fato este que se repetiria por mais oito vezes. A Acadêmicos de Santa Cruz porém, nunca permaneceu neste grupo.
+    </p> <br>
+    <p>
+        A Santa Cruz sempre esteve atrelada às manifestações culturais do seu bairro e ligada aos projetos sociais. Estes já beneficiaram crianças e jovens, adultos e idosos ao longo dos anos. Acordos com a iniciativa privada, principalmente empresários e comerciantes locais, sempre foram fundamentais para a realização dos seus desfiles e a manutenção destes projetos.
+    </p> <br>
+    <p>
+        Para saber mais sobre nossa história, <a href="#">CLIQUE AQUI</a>
+    </p>
+</section>
+<section class="contato">
+  <div class="formulario-contato">
+    <form action="#" method="POST">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" placeholder="João Silva" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" placeholder="email@email.com.br" required>
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" placeholder="(XX) X.XXXX-XXXX" required>
+
+      <label for="assunto">Assunto:</label>
+      <input type="text" id="assunto" name="assunto" placeholder="Suporte, Diretoria" required>
+
+      <label for="mensagem">Texto:</label>
+      <textarea id="mensagem" name="mensagem" rows="4" placeholder="Insira seu texto aqui" required></textarea> 
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</section>
+<section class="patrocinadores">
+  <h2>Nossos Patrocinadores e Parceiros</h2>
+  <div class="carrossel">
+    <div class="carrossel-container">
+      <div class="patrocinador">
+        <img src="/Images/Patrocinadores/1-La-Dame-logo.png" alt="Patrocinador 1">
+      </div>
+      <div class="patrocinador">
+        <img src="/Images/Patrocinadores/2-ambev-logo.png" alt="Patrocinador 2">
+      </div>
+      <div class="patrocinador">
+        <img src="/Images/Patrocinadores/3-atacadao-logo.png" alt="Patrocinador 3">
+      </div>
+      <div class="patrocinador">
+        <img src="/Images/Patrocinadores/4-centrinel-logo.png" alt="Patrocinador 4">
+      </div>
+      <div class="patrocinador">
+        <img src="/Images/Patrocinadores/5-drogarias-pacheco-logo.png" alt="Patrocinador 5">
+      </div>
+      <div class="patrocinador">
+        <img src="/Images/Patrocinadores/6-guanabara-logo.jpg" alt="Patrocinador 6">
+      </div>
+      <div class="patrocinador">
+        <img src="/Images/Patrocinadores/7-guaracamp.png" alt="Patrocinador 7">
+      </div>
+      <div class="patrocinador">
+        <img src="/Images/Patrocinadores/8-premium-turismo-logo.png" alt="Patrocinador 8">
+      </div>
+      <div class="patrocinador">
+        <img src="/Images/Patrocinadores/9-shopping-santa-cruz-logo.png" alt="Patrocinador 9">
+      </div>
+      <div class="patrocinador">
+        <img src="/Images/Patrocinadores/10-ternium-logo.jpg" alt="Patrocinador 10">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="enredo">
+  <div class="enredo-content">
+    <div class="enredo-image">
+      <img src="/Images/Enredo-2024/Enredo-2024.jpeg" alt="Imagem do Enredo 2024">
+    </div>
+    <div class="enredo-details">
+      <h2>Enredo 2024</h2>
+      <h3 class="sinopse">AS BRUXAS ESTÃO SOLTAS!</h3>
+      <p class="sinopse-text">O enredo "As Bruxas Estão Soltas!" celebra o poder feminino, explorando a manifestação das energias ancestrais através da Deusa Terra e dos quatro elementos da criação. A narrativa aborda a conexão entre passado e presente, destacando as mulheres que, ao longo da história, detinham conhecimentos medicinais e espirituais, mas foram perseguidas sob a acusação de bruxaria. O enredo também aborda a resistência dessas mulheres e sua contínua luta contra o machismo e a intolerância, honrando a força do sagrado feminino e a capacidade de voar além dos limites impostos, como estrelas brilhantes no céu.</p>
+      <div class="audio-player">
+        <audio controls>
+          <source src="/Audio/Samba-campeão-2024.mpeg" type="audio/mpeg">
+        </audio>
+      </div>
+      <p>Para ler nossa sinopse completa <a href="/Documents/Sinopse-2024.pdf" download>CLIQUE AQUI</a></p>
+    </div>
+  </div>
+</section>
+
+<div class="iframe">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.9020829403858!2d-43.69324992468918!3d-22.916982179247952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bf7524c69eb5b%3A0xc5d324fb7fbbd336!2sR.%20do%20Imp%C3%A9rio%2C%20573%20-%20Santa%20Cruz%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2023555-024!5e0!3m2!1spt-BR!2sbr!4v1693863801302!5m2!1spt-BR!2sbr" width="1349" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<footer>
+  <div id="footer_content">
+    <div id="footer_contacts">
+      <img src="/Images/Logo/santa-cruz-logo-removebg-preview.png" alt="">
+      <p>Rua do Império, 573, Santa Cruz, Rio de Janeiro</p>
+      <div id="footer_social_media">
+        <a href="https://www.instagram.com/academicosdesantacruzrj/" target="_blank" class="footer-link" id="instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" class="footer-link" id="facebook">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#" class="footer-link" id="tiktok">
+          <i class="fa-brands fa-tiktok"></i>
+        </a>
+        <a href="#" class="footer-link" id="youtube">
+          <i class="fa-brands fa-youtube"></i>
+        </a> 
+        <a href="#" class="footer-link" id="whatsapp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+      </div>
+    </div>
+    <ul class="footer-list">
+      <li>
+        <h3>A escola</h3>
+      </li>
+      <li>
+        <a href="#" class="footer-link">Notícias</a>
+      </li>
+      <li>
+        <a href="#" class="footer-link">Contato</a>
+      </li>
+      <li>
+        <a href="#" class="footer-link">Desfile conosco</a>
+      </li>
+      <li>
+        <a href="#" class="footer-link">Nossa história</a>
+      </li>
+    </ul>
+    <ul class="footer-list">
+      <li>
+        <h3>Carnavais</h3>
+      </li>
+      <li>
+        <a href="#" class="footer-link">Carnaval 2024</a>
+      </li>
+      <li>
+        <a href="#" class="footer-link">Carnaval 2023</a>
+      </li>
+      <li>
+        <a href="#" class="footer-link">Carnavais anteriores</a>
+      </li>
+    </ul>
+    <div id="footer_subscribe">
+      <h3>Se inscreva</h3>
+      <p>
+        Digite seu e-mail para ser notificado sobre nossas novidades
+      </p>
+      <div id="input_group">
+        <input type="email" id="email" placeholder="email@email.com.br">
+        <button>
+          <i class="fa-regular fa-envelope"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div id="footer_copyright">
+    &#169
+    2023 G.R.E.S Acadêmicos de Santa Cruz. Todos os direitos reservados.
+  </div>
+</footer>
+<button id="btnTop" class="back-to-top">
+  <i class="fas fa-arrow-up"></i> <!-- Ícone de seta para cima -->
+</button>
+<script src="/Site/JavaScript/home.js"></script>
+<script src="/Site/JavaScript/carrossel-secundario.js"></script>
+<script src="/Site/JavaScript/settings.js"></script>
+</body>
+</html>

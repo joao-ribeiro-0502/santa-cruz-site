@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+/* Estilizando o título principal */
+.socio-title {
+  color: #008025; /* Cor verde para o título principal */
+  font-size: 24px; /* Tamanho da fonte do título principal */
+  margin-bottom: 10px; /* Espaçamento abaixo do título principal */
+  margin-top: 25px; /* Espaçamento em cima do título principal */
+}
+
+/* Estilizando a descrição abaixo do título principal */
+.socio-description {
+  margin-bottom: 20px; /* Espaçamento abaixo da descrição */
+}
+
+/* Estilizando o título secundário */
+.reasons-title {
+  color: #008025; /* Cor verde para o título secundário */
+  font-size: 20px; /* Tamanho da fonte do título secundário */
+  margin-bottom: 10px; /* Espaçamento abaixo do título secundário */
+}
+
+/* Estilizando a descrição abaixo do título secundário */
+.reasons-description {
+  margin-bottom: 20px; /* Espaçamento abaixo da descrição */
+}
+
+/* Estilizando o título secundário dos planos disponíveis */
+.plans-title {
+  color: #008025; /* Cor verde para o título dos planos disponíveis */
+  font-size: 20px; /* Tamanho da fonte do título dos planos disponíveis */
+  margin-bottom: 10px; /* Espaçamento abaixo do título dos planos disponíveis */
+}
+
+/* Estilizando os planos */
+.plan-1,
+.plan-2,
+.plan-3 {
+  display: inline-block;
+  width: 30%; /* Defina a largura desejada para os planos */
+  padding: 20px;
+  background-color: #f0f0f0; /* Cor de fundo dos planos */
+  border: 1px solid #ddd;
+  text-align: center;
+  margin: 10px;
+  vertical-align: top; /* Alinhar os planos no topo da linha */
+}
+
+/* Estilizando os títulos dos planos */
+.plan-1 h3,
+.plan-2 h3,
+.plan-3 h3 {
+  color: #008025; /* Cor verde para os títulos */
+}
+
+/* Estilizando o preço dos planos */
+.plan-1 p,
+.plan-2 p,
+.plan-3 p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Estilizando os botões "SAIBA MAIS" e "FAZER ADESÃO" */
+.saiba-mais-button,
+.fazer-adesao-button {
+  background-color: #008025; /* Cor verde para os botões */
+  color: #fff; /* Cor das letras dos botões */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+/* Estilizando os botões quando o mouse estiver sobre eles */
+.saiba-mais-button:hover,
+.fazer-adesao-button:hover {
+  background-color: #006020; /* Cor verde ligeiramente mais escura quando o mouse estiver sobre os botões */
+}
+
+/* Estilizando a descrição do plano */
+.descricao-plano {
+  display: none; /* Inicialmente, as descrições estarão ocultas */
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Estilizando a tabela de descrição */
+.descricao-plano table {
+  width: 100%;
+}
+
+/* Estilizando as linhas da tabela */
+.descricao-plano tr {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Estilizando as células da tabela */
+.descricao-plano td {
+  padding: 5px;
+}
+
+/* Estilizando o botão "X" para fechar a descrição */
+.fechar-descricao-button {
+  display: none;
+  color: #000; /* Cor preta para o botão "X" */
+  font-size: 18px; /* Tamanho da fonte */
+  cursor: pointer;
+}
+
+/* Estilizando o botão "X" quando o mouse passa por cima */
+.fechar-descricao-button:hover {
+  color: #ff0000; /* Cor vermelha quando o mouse passa por cima */
+}
