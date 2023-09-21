@@ -8,7 +8,7 @@ main {
   box-shadow: 0 0 10px rgba(0, 128, 37, 0.2);
   text-align: center;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 25px auto;
 }
 
 h1 {
