@@ -52,85 +52,84 @@
             </nav>
         </div>
     </header>
-    <main>
-        <h1>Inscreva-se para Desfilar Conosco</h1>
-        <form id="desfile-form" action="#" method="post">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" placeholder="João Silva" required>
-            
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" placeholder="joao.silva@joao.silva.com.br" required>
-            
-            <label for="telefone">Telefone:</label>
-            <input type="tel" id="telefone" name="telefone" placeholder="(21) 9-1234-5678" required>
-            
-            <label for="data-nascimento">Data de Nascimento:</label>
-            <input type="date" id="data-nascimento" name="data-nascimento" required>
-            
-            <div class="radio-buttons">
-                <span>Experiência em Desfiles:</span>
-                <input type="radio" id="experiencia-sim" name="experiencia-desfile" value="sim" required>
-                <label for="experiencia-sim">Sim</label>
-                <input type="radio" id="experiencia-nao" name="experiencia-desfile" value="nao">
-                <label for="experiencia-nao">Não</label>
-            </div>
-            
-            <label for="cpf">CPF:</label>
-            <input type="text" id="cpf" name="cpf" placeholder="123.456.789-00" required>
-            
-            <label for="endereco-logradouro">Logradouro:</label>
-            <input type="text" id="endereco-logradouro" placeholder="Rua A" name="endereco-logradouro" required>
-            
-            <label for="endereco-numero">Número:</label>
-            <input type="text" id="endereco-numero" placeholder="1" name="endereco-numero" required>
-            
-            <label for="endereco-cep">CEP:</label>
-            <input type="text" id="endereco-cep" name="endereco-cep" placeholder="12.345-678" required>
-            
-            <label for="endereco-complemento">Complemento:</label>
-            <input type="text" id="endereco-complemento" placeholder="Sobrado" name="endereco-complemento">
-            
-            <label for="endereco-bairro">Bairro:</label>
-            <input type="text" id="endereco-bairro" placeholder="Santa Cruz" name="endereco-bairro" required>
-            
-            <label for="endereco-cidade">Cidade:</label>
-            <input type="text" id="endereco-cidade" placeholder="Rio de Janeiro" name="endereco-cidade" required>
-            
-            <label for="endereco-estado">Estado:</label>
-            <input type="text" id="endereco-estado" placeholder="RJ" name="endereco-estado" required>
-            
-            <label for="endereco-pais">País:</label>
-            <input type="text" id="endereco-pais" placeholder="Brasil" name="endereco-pais" required>
-            
-            <label for="altura">Altura (em cm):</label>
-            <input type="number" id="altura" placeholder="1,70" name="altura" required>
-            
-            <label for="peso">Peso (em kg):</label>
-            <input type="number" id="peso" placeholder="80kg" name="peso" required>
-            
-            <label for="manequim">Manequim:</label>
-<select id="manequim" name="manequim" required>
-    <option value="" selected disabled hidden></option> <!-- Opção vazia -->
-    <option value="PP">PP</option>
-    <option value="P">P</option>
-    <option value="M">M</option>
-    <option value="G">G</option>
-    <option value="GG">GG</option>
-    <option value="XGG">XGG</option>
-</select>
-
-<label>É sócio torcedor?</label>
-<div class="radio-buttons">
-    <label>
-        <input type="radio" name="socio" value="Sim"> Sim
-    </label>
-    <label>
-        <input type="radio" name="socio" value="Não"> Não
-    </label>
-</div>
-            <button type="submit">Enviar</button>
-        </form>
-    </main>
+		<main>
+			<h1>Inscreva-se para Desfilar Conosco</h1>
+			<form id="desfile-form" action="#" method="post">
+				<label for="nome">Nome: <span>*</span></label>
+				<input type="text" id="nome" name="nome" placeholder="João Silva" required>
+		
+				<label for="email">E-mail: <span>*</span></label>
+				<input type="email" id="email" name="email" placeholder="joao.silva@joao.silva.com.br" required>
+		
+				<label for="telefone">Telefone: <span>*</span></label>
+				<input type="tel" id="telefone" name="telefone" placeholder="(21) 9.1234-5678" required>
+		
+				<label for="data-nascimento">Data de Nascimento (dd/mm/aaaa): <span>*</span></label>
+				<input type="text" id="data-nascimento" name="data-nascimento" placeholder="dd/mm/aaaa" required>
+		
+				<label for="cpf">CPF: <span>*</span></label>
+				<input type="text" id="cpf" name="cpf" placeholder="123.456.789-00" required>
+		
+				<label for="endereco-logradouro">Logradouro: <span>*</span></label>
+				<input type="text" id="endereco-logradouro" name="endereco-logradouro" placeholder="Rua do Império" required>
+		
+				<label for="endereco-numero">Número: <span>*</span></label>
+				<input type="text" id="endereco-numero" name="endereco-numero" placeholder="573" required>
+		
+				<label for="endereco-cep">CEP: <span>*</span></label>
+				<input type="text" id="endereco-cep" name="endereco-cep" placeholder="23.555-024" required>
+		
+				<label for="endereco-complemento">Complemento:</label>
+				<input type="text" id="endereco-complemento" name="endereco-complemento" placeholder="Quadra">
+		
+				<label for="endereco-bairro">Bairro: <span>*</span></label>
+				<input type="text" id="endereco-bairro" name="endereco-bairro" placeholder="Santa Cruz" required>
+		
+				<label for="endereco-cidade">Cidade: <span>*</span></label>
+				<input type="text" id="endereco-cidade" name="endereco-cidade" placeholder="Rio de Janeiro" required>
+		
+				<label for="endereco-estado">Estado:</label>
+				<input type="text" id="endereco-estado" name="endereco-estado" placeholder="RJ">
+		
+				<label for="endereco-pais">País: <span>*</span></label>
+				<input type="text" id="endereco-pais" name="endereco-pais" placeholder="Brasil" required>
+		
+				<label for="altura">Altura (em cm): <span>*</span></label>
+				<input type="number" id="altura" name="altura" placeholder="1,70cm" required>
+		
+				<label for="peso">Peso (em kg): <span>*</span></label>
+				<input type="number" id="peso" name="peso" placeholder="80kg" required>
+		
+				<label for="manequim">Manequim: <span>*</span></label>
+				<select id="manequim" name="manequim" required>
+					<option value="" selected disabled></option> <!-- Opção vazia -->
+					<option value="PP">PP</option>
+					<option value="P">P</option>
+					<option value="M">M</option>
+					<option value="G">G</option>
+					<option value="GG">GG</option>
+					<option value="XGG">XGG</option>
+				</select>
+		
+				<div class="radio-buttons">
+					<span>Experiência em desfiles?: <span>*</span></span>
+					<input type="radio" id="experiencia-sim" name="experiencia-desfile" value="sim" required>
+					<label for="experiencia-sim">Sim</label>
+					<input type="radio" id="experiencia-nao" name="experiencia-desfile" value="nao" required>
+					<label for="experiencia-nao">Não</label>
+				</div>
+		
+				<div class="radio-buttons">
+					<span>É sócio torcedor?: <span>*</span></span>
+					<input type="radio" id="socio-sim" name="socio" value="Sim" required>
+					<label for="socio-sim">Sim</label>
+					<input type="radio" id="socio-nao" name="socio" value="Não" required>
+					<label for="socio-nao">Não</label>
+				</div>
+		
+				<button type="submit">Enviar</button>
+			</form>
+		</main>
     <footer>
         <div id="footer_content">
             <div id="footer_contacts">
