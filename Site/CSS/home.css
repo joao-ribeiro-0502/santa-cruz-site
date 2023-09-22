@@ -19,6 +19,16 @@ body {
 
 .sobre-escola {
 	background-color: #f0f0f0; /* Adiciona um fundo cinza */
+  display: flex;
+  flex-direction: column;
+  width: 1280px;
+  padding: 2rem;
+  margin: auto;
+  border-radius: 0 0 8px 8px;
+}
+
+.sobre-escola p {
+  text-indent: 1rem;
 }
 
 .sobre-escola h2 {

@@ -30,8 +30,15 @@ footer {
 #footer_content {
 	background-color: var(--bg-footer);
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(5, 1fr);
 	padding: 3rem 3.5rem;
+
+}
+
+#footer_contacts {
+	display: flex;
+	justify-content: center;
+	margin: auto;
 }
 
 #footer_contacts img {
@@ -43,6 +50,7 @@ footer {
 	display: flex;
 	gap: 2rem;
 	margin-top: 1.5rem;
+	
 }
 
 #footer_social_media .footer-link {
@@ -85,6 +93,46 @@ opacity: 0.8;
 	flex-direction: column;
 	gap: 0.75rem;
 	list-style: none;
+	width: 200px;
+}
+
+#escola {
+	display: flex;
+	margin-left: 5rem;
+}
+
+footer .developed-by {
+	padding: 0;
+	margin-right: 10rem;
+}
+
+footer .developed-by h3{
+	display: flex;
+	width: 300px;
+	justify-content: center;
+}
+
+footer #LogoWP {
+	display: flex;
+	width: 300px;
+	justify-content: center;
+	margin-top: -3rem;
+	padding-bottom: 1rem;
+}
+
+footer .developed-by h3, #LogoWP {
+	display: flex;
+}
+
+footer .direction {
+	padding-bottom: 2rem;
+	margin-top: -2.5rem;
+}
+
+#logo-stc {
+	width: 140px;
+	display: flex;
+	margin: auto;
 }
 
 footer li a, footer p {
@@ -113,6 +161,10 @@ footer li a, footer p {
 	align-items: center;
 	background-color: var(--color-neutral-40);
 	border-radius: 4px;
+}
+
+footer .adress {
+	color: var(--color-neutral-50);
 }
 
 #input_group input {
@@ -146,6 +198,6 @@ footer li a, footer p {
 	background-color: var(--color-neutral-0);
 	font-size: 0.9rem;
 	padding: 1.5rem;
-	font-weight: 100;
+	font-weight: bold;
 }
 
