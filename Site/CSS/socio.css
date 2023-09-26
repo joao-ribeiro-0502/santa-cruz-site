@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body {
+  overflow-x: hidden;
+}
+
 /* Estilizando o título principal */
 .socio-title {
   color: #008025; /* Cor verde para o título principal */

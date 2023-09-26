@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body {
+	overflow-x: hidden;
+}
+
 /* Estilo geral do formulário */
 main {
   background-color: #fff;

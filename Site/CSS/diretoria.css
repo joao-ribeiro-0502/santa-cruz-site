@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+/* Estilo para a tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Estilo para o cabeçalho da tabela */
+thead {
+  background-color: #008025;
+  color: white;
+}
+
+/* Estilo para as células do cabeçalho */
+thead th {
+  padding: 10px;
+  text-align: center; /* Alinhamento central para o cabeçalho "Nome" */
+}
+
+/* Estilo para as linhas pares da tabela */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Estilo para as células das linhas */
+tbody td {
+  padding: 10px;
+  text-align: left;
+  color: #008025;
+}
+
+/* Estilo para a segunda coluna (Nome) */
+tbody td:nth-child(2) {
+  white-space: normal; /* Permite que o texto quebre para várias linhas */
+  text-align: center; /* Alinhamento à esquerda para a coluna "Nome" */
+}
+
+/* Estilo para realçar o primeiro item da lista (Presidente de honra) */
+tbody tr:first-child {
+  font-weight: bold;
+}
+
+/* Estilo para realçar o segundo item da lista (Patrono) */
+tbody tr:nth-child(2) {
+  font-weight: bold;
+}
+
+/* Estilo para realçar o terceiro item da lista (Presidente Administrativo) */
+tbody tr:nth-child(3) {
+  font-weight: bold;
+}
+
+/* Estilo para realçar o quarto item da lista (Vice-Presidente) */
+tbody tr:nth-child(4) {
+  font-weight: bold;
+}
+
+h2 {
+	color: #008025;
+	margin-top: 25px;
+}

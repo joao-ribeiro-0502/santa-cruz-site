@@ -31,8 +31,6 @@ body {
 	text-decoration: none;
 }
 
-
-
 .iframe {
   display: flex;
   justify-content: center;
@@ -41,6 +39,8 @@ body {
 iframe {
 	margin-top: 20px;
 }
+
+
 
 /* Estilo geral do formulário */
 .contato{
@@ -61,7 +61,7 @@ label {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
-  color: #008025; /* Cor do texto dos rótulos */
+  color: #008025; 
 }
 
 /* Estilo dos campos de entrada (inputs) e área de texto (textarea) */
@@ -81,7 +81,7 @@ textarea {
 
 /* Estilo do botão de envio */
 button[type="submit"] {
-  background-color: #008025; /* Cor do botão */
+  background-color: #008025; 
   color: white;
   padding: 10px 20px;
   border: none;
@@ -93,7 +93,7 @@ button[type="submit"] {
 
 /* Efeito de hover no botão de envio */
 button[type="submit"]:hover {
-  background-color: #005020; /* Cor do botão no hover */
+  background-color: #005020;
 }
 
 /* Estilo para mensagens de sucesso ou erro (opcional) */
@@ -106,13 +106,17 @@ button[type="submit"]:hover {
 }
 
 .msg-success {
-  background-color: #4CAF50; /* Cor de sucesso */
+  background-color: #4CAF50; 
   color: white;
 }
 
 .msg-error {
-  background-color: #f44336; /* Cor de erro */
-  color: white;
+  background-color: #f44336; 
+}
+
+.formulario-contato h2 {
+  margin-bottom: 40px;
+  text-transform: uppercase;text-align: center;
 }
 
 .patrocinadores {
