@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;200;300;400;500;600;700;800&display=swap');
 body {
   overflow-x: hidden;
 }
@@ -7,9 +7,10 @@ body {
 /* Estilizando o título principal */
 .socio-title {
   color: #008025; /* Cor verde para o título principal */
-  font-size: 24px; /* Tamanho da fonte do título principal */
+  font-size: 100px; /* Tamanho da fonte do título principal */
   margin-bottom: 10px; /* Espaçamento abaixo do título principal */
   margin-top: 25px; /* Espaçamento em cima do título principal */
+  font-family: 'Martian Mono';font-size: 100px;
 }
 
 /* Estilizando a descrição abaixo do título principal */
@@ -120,3 +121,4 @@ body {
 .fechar-descricao-button:hover {
   color: #ff0000; /* Cor vermelha quando o mouse passa por cima */
 }
+

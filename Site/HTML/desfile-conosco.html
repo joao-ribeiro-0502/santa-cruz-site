@@ -61,84 +61,123 @@
 					</div>
 				</a>
     </header>
-		<main>
-			<h1>Inscreva-se para Desfilar Conosco</h1>
-			<form id="desfile-form" action="#" method="post">
-				<label for="nome">Nome: <span>*</span></label>
-				<input type="text" id="nome" name="nome" placeholder="João Silva" required>
-		
-				<label for="email">E-mail: <span>*</span></label>
-				<input type="email" id="email" name="email" placeholder="joao.silva@joao.silva.com.br" required>
-		
-				<label for="telefone">Telefone: <span>*</span></label>
-				<input type="tel" id="telefone" name="telefone" placeholder="(21) 9.1234-5678" required>
-		
-				<label for="data-nascimento">Data de Nascimento (dd/mm/aaaa): <span>*</span></label>
-				<input type="text" id="data-nascimento" name="data-nascimento" placeholder="dd/mm/aaaa" required>
-		
-				<label for="cpf">CPF: <span>*</span></label>
-				<input type="text" id="cpf" name="cpf" placeholder="123.456.789-00" required>
-		
-				<label for="endereco-logradouro">Logradouro: <span>*</span></label>
-				<input type="text" id="endereco-logradouro" name="endereco-logradouro" placeholder="Rua do Império" required>
-		
-				<label for="endereco-numero">Número: <span>*</span></label>
-				<input type="text" id="endereco-numero" name="endereco-numero" placeholder="573" required>
-		
-				<label for="endereco-cep">CEP: <span>*</span></label>
-				<input type="text" id="endereco-cep" name="endereco-cep" placeholder="23.555-024" required>
-		
-				<label for="endereco-complemento">Complemento:</label>
-				<input type="text" id="endereco-complemento" name="endereco-complemento" placeholder="Quadra">
-		
-				<label for="endereco-bairro">Bairro: <span>*</span></label>
-				<input type="text" id="endereco-bairro" name="endereco-bairro" placeholder="Santa Cruz" required>
-		
-				<label for="endereco-cidade">Cidade: <span>*</span></label>
-				<input type="text" id="endereco-cidade" name="endereco-cidade" placeholder="Rio de Janeiro" required>
-		
-				<label for="endereco-estado">Estado:</label>
-				<input type="text" id="endereco-estado" name="endereco-estado" placeholder="RJ">
-		
-				<label for="endereco-pais">País: <span>*</span></label>
-				<input type="text" id="endereco-pais" name="endereco-pais" placeholder="Brasil" required>
-		
-				<label for="altura">Altura (em cm): <span>*</span></label>
-				<input type="number" id="altura" name="altura" placeholder="1,70cm" required>
-		
-				<label for="peso">Peso (em kg): <span>*</span></label>
-				<input type="number" id="peso" name="peso" placeholder="80kg" required>
-		
-				<label for="manequim">Manequim: <span>*</span></label>
-				<select id="manequim" name="manequim" required>
-					<option value="" selected disabled></option> <!-- Opção vazia -->
+		<div class="text-primary">
+			<p>
+				A G.R.E.S. Acadêmicos de Santa Cruz é uma escola de samba que representa a paixão, a cultura e a tradição do nosso povo. Ao desfilar conosco, você se torna parte de uma família dedicada à celebração da nossa herança cultural. Junte-se a nós para fazer história, espalhar a alegria e compartilhar momentos inesquecíveis. Venha desfilar conosco e faça parte dessa jornada única, porque, como dizemos, Feliz é quem tem a Santa Cruz no coração.
+		</p>
+	</div>
+	<main>
+		<form>
+			<h1>Inscreva-se para desfilar conosco</h1>
+	
+			<!-- Nome -->
+			<label for="nome">Nome</label>
+			<input type="text" id="nome" name="nome" placeholder="João Silva" required>
+			<div id="mensagemValidacaoNome" style="color: red;"></div><br>
+	
+			<!-- E-mail -->
+			<label for="email">E-mail</label>
+			<input type="email" id="email" name="email" placeholder="joao.silva@joaosilva.com.br" required>
+			<div id="mensagemValidacaoEmail" style="color: red;"></div><br>
+	
+			<!-- Telefone -->
+			<label for="telefone">Telefone</label>
+			<input type="tel" id="telefone" name="telefone" placeholder="(XX) X.XXXX-XXXX" required>
+			<div id="mensagemValidacaoTelefone" style="color: red;"></div><br>
+	
+			<!-- Data de Nascimento -->
+			<label for="dataNascimento">Data de Nascimento</label>
+			<input type="text" id="dataNascimento" name="dataNascimento" placeholder="DD/MM/AAAA" required>
+			<div id="mensagemValidacaoDataNascimento" style="color: red;"></div><br>
+	
+			<!-- CPF -->
+			<label for="cpf">CPF</label>
+			<input type="text" id="cpf" name="cpf" placeholder="123.456.789-00" required>
+			<div id="mensagemValidacaoCPF" style="color: red;"></div><br>
+	
+			<!-- Logradouro -->
+			<label for="logradouro">Logradouro</label>
+			<input type="text" id="logradouro" name="logradouro" placeholder="Rua do Império" required>
+			<div id="mensagemValidacaoLogradouro" style="color: red;"></div><br>
+	
+			<!-- Número -->
+			<label for="numero">Número</label>
+			<input type="text" id="numero" name="numero" placeholder="573" required>
+			<div id="mensagemValidacaoNumero" style="color: red;"></div><br>
+	
+			<!-- CEP -->
+			<label for="cep">CEP</label>
+			<input type="text" id="cep" name="cep" placeholder="23.555-024" required>
+			<div id="mensagemValidacaoCEP" style="color: red;"></div><br>
+	
+			<!-- Complemento -->
+			<label for="complemento">Complemento</label>
+			<input type="text" id="complemento" name="complemento" placeholder="Quadra"><br>
+	
+			<!-- Bairro -->
+			<label for="bairro">Bairro</label>
+			<input type="text" id="bairro" name="bairro" placeholder="Santa Cruz" required>
+			<div id="mensagemValidacaoBairro" style="color: red;"></div><br>
+	
+			<!-- Cidade -->
+			<label for="cidade">Cidade</label>
+			<input type="text" id="cidade" name="cidade" placeholder="Rio de Janeiro" required>
+			<div id="mensagemValidacaoCidade" style="color: red;"></div><br>
+	
+			<!-- Estado -->
+			<label for="estado">Estado</label>
+			<select id="estado" name="estado" required>
+					<option value="">UF</option>
+					<option value="AC">AC</option>
+					<!-- Adicione aqui todas as opções dos estados -->
+			</select>
+			<div id="mensagemValidacaoEstado" style="color: red;"></div><br>
+	
+			<!-- País -->
+			<label for="pais">País</label>
+			<input type="text" id="pais" name="pais" placeholder="Brasil" required>
+			<div id="mensagemValidacaoPais" style="color: red;"></div><br>
+	
+			<!-- Altura -->
+			<label for="altura">Altura</label>
+			<input type="text" id="altura" name="altura" placeholder="1,70cm" required>
+			<div id="mensagemValidacaoAltura" style="color: red;"></div><br>
+	
+			<!-- Peso -->
+			<label for="peso">Peso</label>
+			<input type="text" id="peso" name="peso" placeholder="80kg" required>
+			<div id="mensagemValidacaoPeso" style="color: red;"></div><br>
+
+			<!-- Tamanho -->
+			<label for="tamanho">Manequim:</label>
+			<select id="tamanho" name="tamanho">
+					<option value=""></option>
 					<option value="PP">PP</option>
 					<option value="P">P</option>
 					<option value="M">M</option>
 					<option value="G">G</option>
 					<option value="GG">GG</option>
-					<option value="XGG">XGG</option>
-				</select>
-		
-				<div class="radio-buttons">
-					<span>Experiência em desfiles?: <span>*</span></span>
-					<input type="radio" id="experiencia-sim" name="experiencia-desfile" value="sim" required>
-					<label for="experiencia-sim">Sim</label>
-					<input type="radio" id="experiencia-nao" name="experiencia-desfile" value="nao" required>
-					<label for="experiencia-nao">Não</label>
-				</div>
-		
-				<div class="radio-buttons">
-					<span>É sócio torcedor?: <span>*</span></span>
-					<input type="radio" id="socio-sim" name="socio" value="Sim" required>
-					<label for="socio-sim">Sim</label>
-					<input type="radio" id="socio-nao" name="socio" value="Não" required>
-					<label for="socio-nao">Não</label>
-				</div>
-		
-				<button type="submit">Enviar</button>
-			</form>
-		</main>
+					<option value="XXG">XXG</option>
+			</select>
+			<div id="mensagemValidacaoTamanho" style="color: red;"></div><br>
+	
+			<!-- Experiência em desfiles -->
+			<p>Experiência em desfiles?</p>
+			<label for="experiencia-sim">Sim</label>
+			<input type="radio" id="experiencia-sim" name="experiencia" value="Sim">
+			<label for="experiencia-nao">Não</label>
+			<input type="radio" id="experiencia-nao" name="experiencia" value="Não"><br>
+	
+			<!-- É sócio Torcedor? -->
+			<p>É sócio Torcedor?</p>
+			<label for="socio-sim">Sim</label>
+			<input type="radio" id="socio-sim" name="socio" value="Sim">
+			<label for="socio-nao">Não</label>
+			<input type="radio" id="socio-nao" name="socio" value="Não"><br>
+	
+			<input type="submit" value="Enviar">
+	</form>
+	</main>
     <footer>
         <div id="footer_content">
             <div id="footer_contacts">
@@ -211,5 +250,7 @@
             2023 G.R.E.S Acadêmicos de Santa Cruz. Todos os direitos reservados.
         </div>
     </footer>
+		<script src="/Site/JavaScript/settings.js"></script>
+		<script src="/Site/JavaScript/desfile-conosco.js"></script>
 </body>
 </html>
