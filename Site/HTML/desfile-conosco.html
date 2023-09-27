@@ -187,25 +187,30 @@
 			<div id="mensagemValidacaoTamanho" style="color: red;"></div><br>
 	
 			<!-- Experiência em desfiles -->
-			<p>Experiência em desfiles?</p>
-			<label for="experiencia-sim">Sim</label>
+<div class="question-container">
+	<p class="question">Experiência em desfiles?</p>
+	<div class="radio-group">
 			<input type="radio" id="experiencia-sim" name="experiencia" value="Sim">
+			<label for="experiencia-sim">Sim</label>
+			<input type="radio" id="experiencia-nao" name="experiencia" value="Não">
 			<label for="experiencia-nao">Não</label>
-			<input type="radio" id="experiencia-nao" name="experiencia" value="Não"><br>
-	
-			<!-- É sócio Torcedor? -->
-			<p>É sócio Torcedor?</p>
-			<label for="socio-sim">Sim</label>
+	</div>
+</div>
+<!-- É sócio Torcedor? -->
+<div class="question-container">
+	<p class="question">É sócio Torcedor?</p>
+	<div class="radio-group">
 			<input type="radio" id="socio-sim" name="socio" value="Sim">
+			<label for="socio-sim">Sim</label>
+			<input type="radio" id="socio-nao" name="socio" value="Não">
 			<label for="socio-nao">Não</label>
-			<input type="radio" id="socio-nao" name="socio" value="Não"><br>
-
-			<!-- Label dinâmica para inscrição -->
-			<div id="inscricaoLabel" style="display: none;">
-  		<label for="inscricao">Insira sua inscrição de sócio:</label>
-  		<input type="text" id="inscricao" name="inscricao">
-			</div>
-
+	</div>
+</div>
+<!-- Label dinâmica para inscrição -->
+<div id="inscricaoLabel" style="display: none;">
+	<label for="inscricao">Insira sua inscrição de sócio:</label>
+	<input type="text" id="inscricao" name="inscricao">
+</div>
 			<input type="submit" value="Enviar">
 	</form>
 	</main>
@@ -281,6 +286,9 @@
             2023 G.R.E.S Acadêmicos de Santa Cruz. Todos os direitos reservados.
         </div>
     </footer>
+		<button id="btnTop" class="back-to-top">
+			<i class="fas fa-arrow-up"></i> <!-- Ícone de seta para cima -->
+		</button>
 		<script src="/Site/JavaScript/settings.js"></script>
 		<script src="/Site/JavaScript/desfile-conosco.js"></script>
 </body>

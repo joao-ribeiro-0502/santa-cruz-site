@@ -94,3 +94,36 @@ input[type="radio"] {
 #inscricaoLabel.active {
   display: block;
 }
+
+.question-container {
+  padding: 15px; /* Espaçamento interno */
+  border-radius: 8px; /* Borda arredondada */
+  margin-bottom: 15px; /* Espaçamento entre perguntas */
+}
+
+.question {
+  font-size: 18px; /* Tamanho da fonte */
+  margin-bottom: 10px; /* Espaçamento inferior da pergunta */
+}
+
+.radio-group {
+  display: flex; /* Exibição em linha para rótulos e botões de rádio */
+}
+
+.radio-group label {
+  background-color: #4CAF50; /* Cor de fundo verde */
+  color: white; /* Cor do texto branco */
+  padding: 10px; /* Preenchimento interno */
+  border-radius: 5px; /* Borda arredondada */
+  margin-right: 10px; /* Espaçamento à direita entre rótulos */
+  cursor: pointer; /* Altera o cursor para indicar clicabilidade */
+}
+
+.radio-group input {
+  display: none; /* Oculta os botões de rádio padrão */
+}
+
+.radio-group input:checked + label {
+  /* Estilo para o rótulo quando o botão de rádio está marcado */
+  background-color: red;
+}
